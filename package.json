@@ -1,0 +1,24 @@
+{
+  "name": "sass-theme-styles",
+  "version": "0.0.1",
+  "description": "sass module for themed styles",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VishalAkhouri/sass-theme-styles.git"
+  },
+  "keywords": [
+    "sass",
+    "theme",
+    "styles"
+  ],
+  "author": "Akhouri Vishal Sinha <vakhouri@gmail.com> (https://vishalakhouri.github.io)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/VishalAkhouri/sass-theme-styles/issues"
+  },
+  "homepage": "https://github.com/VishalAkhouri/sass-theme-styles#readme"
+}
