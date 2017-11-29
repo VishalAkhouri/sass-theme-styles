@@ -23,5 +23,9 @@
   "homepage": "https://github.com/VishalAkhouri/sass-theme-styles#readme",
   "dependencies": {
     "node-sass": "^4.7.2"
+  },
+  "devDependencies": {
+    "sass-loader": "^6.0.6",
+    "webpack": "^3.8.1"
   }
 }
