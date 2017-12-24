@@ -1,0 +1,1 @@
+module.exports = "this is from content.js";
