@@ -1,0 +1,27 @@
+@import '../base/_colors.scss';
+@import '../mixins/breakpoint';
+@import '../base/messages';
+
+body {
+    color: $primary-color;
+
+}
+
+.box {
+    @include transform(rotate(30deg));
+}
+
+.message {
+    @extend %message-shared;
+}
+
+.message-different-padding {
+    @extend %message-shared;
+    padding: 20px;
+}
+
+.message-green {
+    @extend %message-shared;
+    border-color: green;
+
+}

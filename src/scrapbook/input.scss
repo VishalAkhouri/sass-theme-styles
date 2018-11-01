@@ -1,0 +1,10 @@
+$font-type: Helvetica, sans-serif;
+$font-color: #333;
+$font-size: 12px;
+
+body {
+    font-family: 100% $font-type;
+    color: $font-color;
+    font-size: $font-size;
+    
+}
