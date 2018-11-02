@@ -1,12 +1,21 @@
 // webpack.config.js
-var path = require("path");
+const path = require("path");
+const CleanWebpackPlugin = require("clean-webpack-plugin");
+const HtmlWebpackPlugin = require("html-webpack-plugin");
 
 module.exports = {
-    entry: "./index.js",
+    entry: {
+        app: "./src/index.js",
+        print: "./src/print.js"
+    },
+    devtool: "inline-source-map",
+    devServer: {
+        contentBase: "./dist"
+    },
     output: {
         path: path.resolve(__dirname, "dist"),
-        filename: "bundle.js",
-        publicPath: "/dist"
+        filename: "[name].bundle.js",
+        publicPath: "/"
     },
     module: {
         rules: [{
@@ -22,5 +31,11 @@ module.exports = {
                 }
             }]
         }]
-    }
+    },
+    plugins: [
+        new CleanWebpackPlugin(),
+        new HtmlWebpackPlugin({
+            title: "SCSS Themes development"
+        })
+    ]
 };

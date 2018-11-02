@@ -1,2 +1,22 @@
-$primary-color: #ffffff;
-
+$theme-colors: (
+    'primary': (
+        'base': #123423,
+        'light': #34aa23,
+        'dark': #0099ee
+    ),
+    'secondary': (
+        'base': #443322,
+        'light': #bbcc00,
+        'dark': #ee5566
+    )
+    'foreground': (
+        'base': #111111,
+        'light': #333333,
+        'dark': #999999
+    ),
+    'background': (
+        'base': #ffee11,
+        'light': #dd8899,
+        'dark': #ff8899
+    )
+)

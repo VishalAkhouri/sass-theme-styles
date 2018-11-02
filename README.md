@@ -1,3 +1,4 @@
+WORK IN PROGRESS code
 # sass-theme-styles
 Produces themed styles with sass and webpack
 
@@ -28,6 +29,12 @@ npm install style-loader css-loader --save-dev
 
 npm install --save-dev webpack webpack-cli #webpacli is required for webpack v4 and above
 
-# step 2: create a dist on running the script
+## step 2: create a dist on running the script
+run command: webpack --config webpack.config.js
 
-# step 3: testing the scripts generated using the test harness , this will also serve as repos for varous styles components created.
+## step 3: testing the scripts generated using the test harness , this will also serve as repos for varous styles components created.
+
+
+#Development mode
+## spin up a development server
+npm install --save-dev webpack-dev-server

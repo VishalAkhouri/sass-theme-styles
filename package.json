@@ -6,7 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "scss": "node-sass --watch src/app -o dist",
-    "start": "webpack --config webpack.config.js"
+    "build": "webpack --config webpack.config.js",
+    "watch": "webpack --watch --config webpack.config.js",
+    "start": "webpack-dev-server --open"
   },
   "repository": {
     "type": "git",
@@ -25,11 +27,14 @@
   "homepage": "https://github.com/VishalAkhouri/sass-theme-styles#readme",
   "dependencies": {},
   "devDependencies": {
+    "clean-webpack-plugin": "^0.1.19",
     "css-loader": "^0.28.11",
+    "html-webpack-plugin": "^3.2.0",
     "node-sass": "^4.9.4",
     "sass-loader": "^6.0.7",
     "style-loader": "^0.19.1",
     "webpack": "^3.12.0",
-    "webpack-cli": "^3.1.2"
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "3.0.0"
   }
 }
